@@ -1,5 +1,5 @@
 
-import { Kode_Mono, Urbanist } from "next/font/google";
+import { Kode_Mono } from "next/font/google";
 
 import Footer from "@/components/footer";
 import Navbar from "@/components/navbar";
@@ -14,10 +14,7 @@ const kodeMono = Kode_Mono({
   variable: '--font-kode-mono', // Opcional para uso avançado
 });
 
-const font = Urbanist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
+
 
 export const metadata = {
   title: "Store",
