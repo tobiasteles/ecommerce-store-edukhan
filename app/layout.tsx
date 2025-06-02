@@ -1,5 +1,5 @@
 
-import { Urbanist } from "next/font/google";
+import { Kode_Mono, Urbanist } from "next/font/google";
 
 import Footer from "@/components/footer";
 import Navbar from "@/components/navbar";
@@ -8,6 +8,11 @@ import "./globals.css";
 import ModalProvider from "@/providers/modal-provider";
 import ToastProvider from "@/providers/toast-provider";
 
+const kodeMono = Kode_Mono({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"], // Pode ajustar conforme necessário
+  variable: '--font-kode-mono', // Opcional para uso avançado
+});
 
 const font = Urbanist({
   variable: "--font-geist-sans",
@@ -27,7 +32,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={font.className}
+        className={kodeMono.className}
       >
         <ModalProvider />
         <ToastProvider />

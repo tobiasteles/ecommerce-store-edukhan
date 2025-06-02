@@ -27,6 +27,7 @@ const Button = forwardRef<HTMLButtonElement, React.ButtonHTMLAttributes<HTMLButt
             `,
             className
         )}
+        disabled={disabled}
         ref={ref}
         {...props}
         >
