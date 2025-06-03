@@ -1,4 +1,3 @@
-
 import { Kode_Mono } from "next/font/google";
 
 import Footer from "@/components/footer";
@@ -11,14 +10,13 @@ import ToastProvider from "@/providers/toast-provider";
 const kodeMono = Kode_Mono({
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"], // Pode ajustar conforme necessário
-  variable: '--font-kode-mono', // Opcional para uso avançado
+  variable: "--font-kode-mono", // Opcional para uso avançado
 });
 
-
-
 export const metadata = {
-  title: "Store",
-  description: "Store",
+  title: "Edukhan Store",
+  description:
+    "Loja Oficial do Projeto Edukhan | Compre camisetas, canecas e itens exclusivos que financiam o resgate escolar de crianças. Cada compra garante transporte seguro, materiais didáticos e esperança para quem mais precisa. Sua solidariedade vestida no dia a dia!",
 };
 
 export default function RootLayout({
@@ -27,10 +25,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body
-        className={kodeMono.className}
-      >
+    <html lang="pt-BR">
+      <body className={kodeMono.className}>
         <ModalProvider />
         <ToastProvider />
         <Navbar />
