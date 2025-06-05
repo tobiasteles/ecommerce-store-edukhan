@@ -1,94 +1,71 @@
-# 🛍️ E-commerce Edukhan - Plataforma de Arrecadação
+# 🛍️ Edukhan E-commerce - Fundraising Platform
 
 [![Deploy with Vercel](https://vercel.com/button)](https://ecommerce-store-edukhan.vercel.app/) 
 ![Status](https://img.shields.io/badge/status-Functional%20MVP-brightgreen)
 
-> Plataforma de e-commerce desenvolvida para arrecadar fundos para projetos educacionais do Edukhan
+> E-commerce platform developed to raise funds for Edukhan's educational initiatives
 
-## 🚀 Visão Geral
+## 🌟 Overview
 
-Projeto funcional de e-commerce desenvolvido para o **Edukhan**, com foco em:
-- Gerar recursos para iniciativas educacionais
-- Oferecer experiência de compra moderna e intuitiva
-- Facilitar gestão de produtos e vendas através de painel administrativo
+A fully functional e-commerce solution designed for **Edukhan** with:
+- Complete product management system
+- Order processing workflow
+- Administrative dashboard
+- Promotional banner system
+- Responsive mobile-first design
 
-**Estado atual:** Primeira versão operacional - pronto para uso com ajustes incrementais em andamento
+**Current Status:** Production-ready MVP - Actively processing orders while undergoing incremental improvements
 
-## ✨ Funcionalidades Implementadas
+## ✨ Key Features
 
-### 💻 Frontend & UX
-- Catálogo de produtos com filtros (categoria, cor, tamanho)
-- Carrinho de compras persistente
-- Fluxo completo de checkout
-- Layout responsivo (mobile/desktop)
-- Banners promocionais customizáveis
+### 🛒 Customer Experience
+- Product catalog with filters (category/size/color)
+- Persistent shopping cart
+- Seamless checkout flow
+- Promotional banners
+- Order history tracking
 
-### 🛠️ Painel Administrativo
-- CRUD completo de produtos
-- Gerenciamento de categorias, cores e tamanhos
-- Controle de banners promocionais
-- Dashboard de vendas e pedidos
-- Gestão de estoque
+### ⚙️ Admin Dashboard
+- Product CRUD operations
+- Category/size/color management
+- Sales analytics dashboard
+- Order fulfillment tracking
+- Banner management
+- Inventory control
 
-### ⚙️ Backend & Infra
-- Autenticação segura
-- API RESTful
-- Banco de dados relacional
-- Deploy automatizado na Vercel
+## 🚀 Technology Stack
 
-## 🛠️ Stack Tecnológica
+| Layer             | Technologies                                                                 |
+|-------------------|------------------------------------------------------------------------------|
+| **Frontend**      | Next.js 14, React 18, TypeScript                                             |
+| **Styling**       | Tailwind CSS, Shadcn/ui                                                      |
+| **Backend**       | Next.js API Routes                                                           |
+| **Database**      | Prisma ORM + PostgreSQL                                                      |
+| **Authentication**| NextAuth                                                                     |
+| **Deployment**    | Vercel                                                                       |
+| **UI Components** | Headless UI, Lucide Icons                                                    |
 
-| Camada           | Tecnologias                                                                 |
-|------------------|-----------------------------------------------------------------------------|
-| **Frontend**     | Next.js, React, Tailwind CSS, TypeScript                                    |
-| **Backend**      | Next.js API Routes                                                          |
-| **Banco de Dados**| Prisma ORM + PostgreSQL                                                     |
-| **Autenticação** | NextAuth                                                                    |
-| **Deploy**       | Vercel                                                                      |
-| **UI**           | Shadcn/ui, Headless UI                                                      |
+## 🔍 Live Preview
 
-## 🔍 Visualização do Projeto
+[**Access Production Site**](https://ecommerce-store-edukhan.vercel.app/)
 
-[**Acesse o site em produção**](https://ecommerce-store-edukhan.vercel.app/)
+*Admin demo credentials available upon request*
 
-### Capturas de Tela
-![Página Inicial](https://via.placeholder.com/800x400?text=Homepage+Edukhan)
-![Painel Admin](https://via.placeholder.com/800x400?text=Dashboard+Administrativo)
+## 📸 Project Screenshots
 
-## 🚧 Próximos Passos & Desafios
+| Customer View | Admin Panel |
+|---------------|-------------|
+| ![Homepage](https://via.placeholder.com/400x200?text=Edukhan+Store) | ![Dashboard](https://via.placeholder.com/400x200?text=Admin+Dashboard) |
+| ![Product Page](https://via.placeholder.com/400x200?text=Product+Detail) | ![Order Management](https://via.placeholder.com/400x200?text=Order+Console) |
 
-Atualmente buscamos parceiros para:
-- 🔄 **Integrações com fornecedores**
-- 📦 **Solução de logística de entregas**
-- 🎨 **Seleção de produtos iniciais**
-- 🔐 **Aprimoramentos de segurança**
-- 📱 **Otimização mobile**
+## 🚧 Next Development Phase
 
-## 🤝 Como Contribuir
-
-Estamos especialmente buscando:
-1. Parceiros comerciais (fornecedores de produtos)
-2. Especialistas em logística
-3. Mentores técnicos (Next.js/Prisma)
-4. UX Designers voluntários
-5. Testadores de usabilidade
-
-**Se interessou?** Entre em contato via [LinkedIn](https://www.linkedin.com/in/seu-perfil) ou abra uma issue neste repositório!
-
-## ⚙️ Execução Local
-
-```bash
-# Clonar repositório
-git clone https://github.com/seu-usuario/ecommerce-edukhan.git
-
-# Instalar dependências
-npm install
-
-# Configurar variáveis de ambiente (crie .env baseado em .env.example)
-cp .env.example .env
-
-# Executar migrações do banco
-npx prisma migrate dev
-
-# Iniciar servidor
-npm run dev
+We're currently focusing on:
+```mermaid
+graph TD
+    A[Operational MVP] --> B[Supplier Integration]
+    A --> C[Logistics Solution]
+    A --> D[Initial Product Curation]
+    B --> E[Payment Gateway Enhancements]
+    C --> F[Shipping API Integration]
+    D --> G[Inventory Automation]
