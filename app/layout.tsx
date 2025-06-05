@@ -9,8 +9,8 @@ import ToastProvider from "@/providers/toast-provider";
 
 const kodeMono = Kode_Mono({
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700"], // Pode ajustar conforme necessário
-  variable: "--font-kode-mono", // Opcional para uso avançado
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-kode-mono",
 });
 
 export const metadata = {
