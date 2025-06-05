@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🛍️ Edukhan E-commerce - Fundraising Platform
 
-## Getting Started
+[![Deploy with Vercel](https://vercel.com/button)](https://ecommerce-store-edukhan.vercel.app/) 
+![Status](https://img.shields.io/badge/status-Functional%20MVP-brightgreen)
 
-First, run the development server:
+> E-commerce platform developed to raise funds for Edukhan's educational initiatives
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🌟 Overview
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+A fully functional e-commerce solution designed for **Edukhan** with:
+- Complete product management system
+- Order processing workflow
+- Administrative dashboard
+- Promotional banner system
+- Responsive mobile-first design
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+**Current Status:** Production-ready MVP - Actively processing orders while undergoing incremental improvements
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## ✨ Key Features
 
-## Learn More
+### 🛒 Customer Experience
+- Product catalog with filters (category/size/color)
+- Persistent shopping cart
+- Seamless checkout flow
+- Promotional banners
+- Order history tracking
 
-To learn more about Next.js, take a look at the following resources:
+### ⚙️ Admin Dashboard
+- Product CRUD operations
+- Category/size/color management
+- Sales analytics dashboard
+- Order fulfillment tracking
+- Banner management
+- Inventory control
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🚀 Technology Stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+| Layer             | Technologies                                                                 |
+|-------------------|------------------------------------------------------------------------------|
+| **Frontend**      | Next.js, React, TypeScript                                             |
+| **Styling**       | Tailwind CSS, Shadcn/ui                                                      |
+| **Backend**       | Next.js API Routes                                                           |
+| **Database**      | Prisma ORM + PostgreSQL                                                      |
+| **Authentication**| NextAuth                                                                     |
+| **Deployment**    | Vercel                                                                       |
+| **UI Components** | Headless UI, Lucide Icons                                                    |
 
-## Deploy on Vercel
+## 🔍 Live Preview
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+[**Access Production Site**](https://ecommerce-store-edukhan.vercel.app/)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+*Admin demo credentials available upon request*
+
+
+## 🚧 Next Development Phase
+
+We're currently focusing on:
+```mermaid
+graph TD
+    A[Operational MVP] --> B[Supplier Integration]
+    A --> C[Logistics Solution]
+    A --> D[Initial Product Curation]
+    B --> E[Payment Gateway Enhancements]
+    C --> F[Shipping API Integration]
+    D --> G[Inventory Automation]
