@@ -37,7 +37,7 @@ A fully functional e-commerce solution designed for **Edukhan** with:
 
 | Layer             | Technologies                                                                 |
 |-------------------|------------------------------------------------------------------------------|
-| **Frontend**      | Next.js 14, React 18, TypeScript                                             |
+| **Frontend**      | Next.js, React, TypeScript                                             |
 | **Styling**       | Tailwind CSS, Shadcn/ui                                                      |
 | **Backend**       | Next.js API Routes                                                           |
 | **Database**      | Prisma ORM + PostgreSQL                                                      |
