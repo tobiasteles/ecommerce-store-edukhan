@@ -51,12 +51,6 @@ A fully functional e-commerce solution designed for **Edukhan** with:
 
 *Admin demo credentials available upon request*
 
-## 📸 Project Screenshots
-
-| Customer View | Admin Panel |
-|---------------|-------------|
-| ![Homepage](https://via.placeholder.com/400x200?text=Edukhan+Store) | ![Dashboard](https://via.placeholder.com/400x200?text=Admin+Dashboard) |
-| ![Product Page](https://via.placeholder.com/400x200?text=Product+Detail) | ![Order Management](https://via.placeholder.com/400x200?text=Order+Console) |
 
 ## 🚧 Next Development Phase
 
